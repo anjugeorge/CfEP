@@ -114,10 +114,10 @@ li{
 	float: right;
 	margin-right: 50px;
 }
-.bannerHeading{
+.logoHeading{
 	float: left;
 }
-.bannerHeading, .heading{
+.logoHeading, .heading{
 	color: #E9DAC1;
 	margin-left: 50px;
 }
