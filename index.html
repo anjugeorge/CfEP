@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- CSS Styling -->
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link rel="stylesheet" type="text/css" href="CSS/loginPage.css">
+	
+	<!-- Font Family -->
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+	<!-- Font Awesome for Icons -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+	<!-- Javascript -->
+	<script type="text/javascript" src="JS/javascript.js"></script>
+
+	<!-- FavIcon (CfEP) -->
+	<link rel="icon" href="FavIcon/favicon.ico">
+
+	<title>CodeFusion Employee Portal</title>
+
+
+</head>
+<body id="parentPage">	
+	<div class="container">
+		<div class="col-1">
+			<h2 class="mainHeading">
+				CodeFusion Communications Inc.
+			</h2>
+			<img src="Images/employee.jpg">
+		</div>
+		<div class="col-2">
+			<div class="content">
+				<h3 class="loginHeading">
+					Welcome to Cf Employee Portal
+				</h3>
+				<h5>
+					Username
+				</h5>
+				<i class="fas fa-solid fa-user userIcon"></i>
+				<input id="username" type="textbox" name="">
+				<h5>
+					Password
+				</h5>
+				<i class="fas fa-solid fa-key passwordIcon"></i>
+				<input id="password" type="password" name="">
+				<button class="btn" onclick="validateSignIn();">Login</button>
+				<div class="notRegistered">
+					<a class="signUp" href="SignUp.html">Sign Up</a>
+					<a class="forgotPassword" href="">Forgot Password?</a>
+				</div>
+		</div>
+	</div>
+</body>
+</html>

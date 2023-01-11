@@ -1,0 +1,171 @@
+
+
+h1,h2,h3,h4,h5,h6,a,th,td{
+	font-family: 'Montserrat', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: #E9DAC1;
+}
+img{
+	margin-top: 5px;
+}
+
+input{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #000000;
+	width: 270px;
+	margin-left: 20px;
+}
+
+li{
+	display: inline-block;
+	padding-left: 20px;
+
+}
+
+.container{
+	margin-top: 100px;
+	width: 100%;
+}
+
+.col-1{
+	float: left;
+	margin-left: 10%;
+}
+
+.mainHeading{
+	color: #E9DAC1;
+}
+
+.col-2{
+	float: right;
+	margin-right: 10%;
+}
+
+.content{
+	border: 1px solid #FFFFFF;
+	border-radius: 20px;
+	padding: 20px 15px 65px 15px;
+	background-color: #FFFFFF;
+}
+
+.loginHeading{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.userIcon, .passwordIcon{
+	position: absolute;
+}
+
+.btn {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 10px;
+  border-width: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bolder;
+  background: #2B4865;
+  padding: 8px 120px 8px 120px;
+  text-decoration: none;
+  display: block;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+.btn:hover {
+  background: #205295;
+  text-decoration: none;
+}
+
+.notRegistered{
+	margin-top: 50px;
+}
+
+.signUp{
+	text-decoration: none;
+	color: #2B4865;
+	font-size: 15px;
+	margin-left: 20px;
+}
+
+.forgotPassword{
+	text-decoration: none;
+	color: #2B4865;
+	font-size: 15px;
+	margin-left: 60px;
+}
+
+.banner{
+	background-color: #205295;
+	padding-top: 10px;
+	padding-bottom: 10px;}
+
+.bannerImage{
+	margin-top: 50px;
+}
+.navbar{
+	float: right;
+	margin-right: 50px;
+}
+.bannerHeading{
+	float: left;
+}
+.bannerHeading, .heading{
+	color: #E9DAC1;
+	margin-left: 50px;
+}
+
+.heading{
+display: inline;
+	clear: both;
+	position: absolute;
+	top: 150px;
+	right: 95px;
+}
+
+.eventsTable{
+	width: 100%;
+}
+
+.eventsTable th,.eventsTable td {
+text-align: center;
+	padding: 15px 150px 15px 150px;
+}
+.eventsTable th{
+	color:#FFFFFF ;
+	background-color: #4B56D2;
+}
+
+.eventsTable td{
+	background-color: #EFF5F5;
+}
+.addLeaveHeading{
+	background-color: #3C79F5;
+	color: #FFFFFF;
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	right: 50%;
+	margin-right: -50px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.addLeaveMainContent{
+	border: solid 1px #4B56D2;
+	margin: 30px;
+	background-color: #FFFFFF;
+}
+.addLeaveSubContent{
+	padding:50px 50px;
+}
+.addLeaveSubContent h3{
+	display: inline-block;
+}
